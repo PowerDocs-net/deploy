@@ -1,0 +1,21 @@
+name: "Deploy PowerShell docs"
+
+description: "Deploys Powershell documentation to remote Server"
+
+branding:
+  icon: "upload-cloud"
+  color: "red"
+
+inputs:
+  root_dir:
+    description: "Directory location of the PowerShell scripts"
+    required: true
+    default: "/"
+
+outputs:
+  doc_url:
+    description: "Url of the online documentation"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
