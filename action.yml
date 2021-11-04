@@ -22,4 +22,3 @@ outputs:
 runs:
   using: "docker"
   image: "docker://justiniven/ps_docs_online-deploy:dev"
-  entrypoint: '/bin/deploy/deploy'
