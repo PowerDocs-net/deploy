@@ -21,4 +21,4 @@ outputs:
 
 runs:
   using: "docker"
-  image: "docker://justiniven/ps_docs_online-deploy:latest"
+  image: "docker://justiniven/ps_docs_online-deploy"
