@@ -7,12 +7,15 @@ branding:
   color: "red"
 
 inputs:
-  api_token:
-    description: "API token"
+  project_id:
+    description: "ID of project"
+    required: true
+  api_key:
+    description: "API key"
     required: true
   root_dir:
     description: "Directory location of the PowerShell scripts"
-    required: true
+    required: false
     default: ""
 
 outputs:
