@@ -13,7 +13,11 @@ inputs:
   api_key:
     description: "API key"
     required: true
-  root_dir:
+  source_type:
+    description: "Source type (script / module)"
+    required: false
+    default: "script"
+  source_dir:
     description: "Directory location of the PowerShell scripts"
     required: false
     default: ""
