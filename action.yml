@@ -3,7 +3,7 @@ name: "Deploy PowerShell docs"
 description: "Deploys Powershell documentation to remote Server"
 
 branding:
-  icon: "upload-cloud"
+  icon: "file-text"
   color: "red"
 
 inputs:
