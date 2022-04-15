@@ -1,6 +1,6 @@
 name: "Deploy PowerShell docs"
 
-description: "Deploys Powershell documentation to remote Server"
+description: "Deploys Powershell documentation to PowerDocs"
 
 branding:
   icon: "file-text"
@@ -28,4 +28,4 @@ outputs:
 
 runs:
   using: "docker"
-  image: "docker://justiniven/ps_docs_online-deploy:v1"
+  image: "docker://justiniven/powerdocs_github:v1"
