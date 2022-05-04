@@ -1,6 +1,6 @@
-name: "Deploy PowerShell docs"
+name: "PowerDocs Deploy"
 
-description: "Deploys Powershell documentation to PowerDocs"
+description: "GitHub Action for deploying PowerShell documentations to PowerDocs."
 
 branding:
   icon: "file-text"
