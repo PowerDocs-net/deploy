@@ -27,8 +27,8 @@ jobs:
 | Name | Description | Default Value |
 |------|-------------|---------------|
 | project_id | The Unique Identifier of your PowerDocs project. | None |
-| api_key | The api key of your PowerDocs Porject. | None |
-| source_type | If you want to deploy scripts or a module (module is currently in e early alpha and still under development, so it's likely to fail). | script |
+| api_key | The api key of your PowerDocs project. | None |
+| source_type | If you want to deploy scripts or a module (module is currently in early alpha and still under development, so it's likely to fail). | script |
 | source_dir | The source directory of your PowerShell files relative to the root of your repository. | / |
 
 ## Issues and Feedback
