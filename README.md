@@ -3,7 +3,7 @@
 This GitHub Action enables developers to publish their PowerShell documentations from scripts and modules to PowerDocs. This action generates documentations and uploads the resulting content to your PowerDocs project.
 
 * [More information about PowerDocs](https://powerdocs.net)
-* [More information about this GitHub Action](https://powerdocs.net/docs/github-action)
+* [More information about this GitHub Action](https://powerdocs.net/docs/Getting%20started)
 * [Demo repository](https://github.com/PowerDocs-net/deploy_github_demo)
 
 
